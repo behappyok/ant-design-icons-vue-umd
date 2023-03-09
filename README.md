@@ -27,7 +27,7 @@ pnpm run build
 
 ## 使用  
 在所需要引入的项目的vite.config.js文件plugins节点添加如下配置，其中  
-Your Private Static Resources Server中改为你的静态资源服务器
+CDNimportToCDN module 中的path可以改为你自己的静态资源服务器
 ```ts
 
 import { Plugin as importToCDN } from "vite-plugin-cdn-import";
@@ -39,7 +39,7 @@ import { Plugin as importToCDN } from "vite-plugin-cdn-import";
          {
           name: "@ant-design/icons-vue",
           var: "AntDesignIconsVue",
-          path: "${Your Private Static Resources Server}/ant-design.icons-vue.js"
+          path: "https://cdn.jsdelivr.net/npm/@elonmuscle/ant-design-icons-vue/dist/ant-design-icons-vue.umd.js"
         }
       ],
     }),
