@@ -1,7 +1,11 @@
 {
-  "name": "@ant-design/icons-vue",
+  "name": "@elonmuscle/ant-design-icons-vue",
   "private": false,
   "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/behappyok/ant-design-icons-vue-umd.git"
+  },  
   "version": "6.1.0",
   "main": "./dist/ant-design-icons-vue.umd.js",
   "module": "./dist/ant-design-icons-vue.es.js",
