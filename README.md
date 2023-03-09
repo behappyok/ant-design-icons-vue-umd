@@ -27,7 +27,7 @@ pnpm run build
 
 ## 使用  
 在所需要引入的项目的vite.config.js文件plugins节点添加如下配置，其中  
-CDNimportToCDN module 中的path可以改为你自己的静态资源服务器
+importToCDN module 中的path可以改为你自己的静态资源服务器
 ```ts
 
 import { Plugin as importToCDN } from "vite-plugin-cdn-import";
